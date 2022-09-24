@@ -1,0 +1,5 @@
+.main {
+    height: 100vh;
+    background: linear-gradient(to bottom, #2b465e, #1a2938);
+    display: flex;
+}

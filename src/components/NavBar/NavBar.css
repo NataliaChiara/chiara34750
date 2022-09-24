@@ -1,24 +1,55 @@
 .nav{
-    background-color: rgb(191, 191, 191);
-    color: rgb(91, 91, 91);
+    background-color: #171a21;
+    color: #c5c3c0;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    height: 15vh;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
 }
 
 .tittle {
-    font-size: 40px;
+    font-size: 25px;
+    margin-left: 5px;
 }
 
-.button {
+.links {
+    margin: 0px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navButton {
     background: none;
-    border: 1px white solid;
-    border-radius: 3px;
-    padding: 5px;
-    margin: 5px;
+    border: none;
+    color: #c5c3c0;
+    cursor: pointer;
+    padding: 8px;
+    margin: 0px 8px;
 }
 
-.button:hover{
-    background-color: rgb(58, 58, 58);
+.navButton2 {
+    background-color: #5c7e10;
+    border: none;
+    color: #c5c3c0;
+    padding: 8px;
+    margin: 0px 8px;
+    cursor: pointer;
+}
+
+.navButton:hover{
+    color: white;
+}
+
+.navButton2:hover{
     color: white;
 }

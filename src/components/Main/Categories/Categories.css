@@ -1,0 +1,26 @@
+.categories hr{
+    margin: 15px 0px;
+    width: 60%;
+    color: #c5c3c0;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+}
+
+.categoriesButton {
+    background: none;
+    border: none;
+    text-align: left;
+    padding: 5px;
+    width: 90px;
+    cursor: pointer;
+    color: #5ab9f0;
+}
+
+.categoriesButton:hover {
+    color: white;
+}

@@ -1,16 +1,20 @@
 import './NavBar.css'
-import CartWidget from '../CartWidget/CartWidget'
+import CartWidget from './CartWidget/CartWidget'
+import logo from './Assets/logoSteam.png'
+
 
 const NavBar = () => {
     return(
         <nav className='nav'>
-            <div>
-                <h1 className='tittle'>Smoke</h1>
+            <div className='brand'>
+                <img src={logo} className='logo'></img>
+                <h1 className='tittle'>S T E A M</h1>
             </div>
-            <div>
-                <button className='button'>Rocket League</button>
-                <button className='button'>Sims 4</button>
-                <button className='button'>Don't Starve</button>
+            <div className='links'>
+                <button className='navButton'>TIENDA</button>
+                <button className='navButton'>BUSCAR</button>
+                <button className='navButton'>SOPORTE</button>
+                <button className='navButton2'>Iniciar sesion</button>
             </div>
             <div>
                 <CartWidget />

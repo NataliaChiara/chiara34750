@@ -1,0 +1,46 @@
+
+.container {
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.producto {
+    width: 250px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 10px -6px black;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.descripcion {
+    background: linear-gradient(to bottom, #19587b, #2078a0);
+    color: white;
+    padding: 15px;
+}
+
+.descripcion h1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.descripcion h2 {
+    font-size: 20px;
+    background-color: #4c6b22;
+    width: fit-content;
+    padding: 10px;
+    color: #a3cc0b;
+}
+
+.opciones button {
+    background: none;
+    color: white;
+    border: none;
+    margin: 10px 15px 0px 0px;
+}
+
+.producto:hover{
+    width: 260px;
+}
