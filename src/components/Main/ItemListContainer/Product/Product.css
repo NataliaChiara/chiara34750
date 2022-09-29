@@ -1,18 +1,27 @@
 
 .container {
-    width: 80vw;
     display: flex;
     justify-content: space-around;
 }
 
 .producto {
-    width: 250px;
     height: fit-content;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 10px 10px -6px black;
     margin: 50px;
     cursor: pointer;
+}
+
+.frame {
+    width: 250px;
+    height: 300px;
+}
+
+.frame img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .descripcion {
@@ -23,7 +32,7 @@
 
 .descripcion h1 {
     font-size: 16px;
-    margin-bottom: 10px;
+    margin: 10px 0px;
 }
 
 .descripcion h2 {
@@ -38,9 +47,5 @@
     background: none;
     color: white;
     border: none;
-    margin: 10px 15px 0px 0px;
-}
-
-.producto:hover{
-    width: 260px;
+    margin: 0px 10px 0px 0px;
 }

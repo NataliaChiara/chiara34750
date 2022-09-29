@@ -1,12 +1,12 @@
 import './main.css'
 import Categories from "./Categories/Categories";
-import Product from './Product/Product';
+import ItemListContainer from "./ItemListContainer/ItemListContainer"
 
 const Main = () => {
     return (
         <div className="main">
-        <Categories />
-        <Product />
+            <Categories />
+            <ItemListContainer />
         </div>
     )
 }

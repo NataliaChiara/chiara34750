@@ -1,5 +1,12 @@
 .main {
     height: 100vh;
+    width: 100vw;
     background: linear-gradient(to bottom, #2b465e, #1a2938);
     display: flex;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
